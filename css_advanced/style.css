@@ -1,0 +1,822 @@
+header {
+
+width: 1103.41px;
+height: 29.46px;
+top: 35.02px;
+left: 171.59px;
+position: relative;
+}
+
+.link-block ul {     
+    width: 234px; 
+    height: 15px;
+    top: 37px;
+    left: 1041px;
+    gap: 0px;
+    opacity: 0px;    
+   position: relative;
+   color: #FFFFFF;
+   text-decoration: none;
+   display: flex;           
+    list-style-type: none;  
+    padding: 0;             
+    margin: 0; 
+}
+.link-block li {
+    margin-right: 20px;
+}
+.link-block a {
+    text-decoration: none;   
+    color: #ffffff;           
+}
+    
+
+.logo-image {
+    width: 167.02px;
+height: 29.46px;
+top: 37px;
+left: 1.59px;
+opacity: 0px;
+color: #fffdfd;
+position: relative;
+
+}
+.Headban img{
+width: 1440px;
+height: 1093px;
+gap: 0px;
+opacity: 0px;
+height: auto;
+z-index: 1;
+}
+.first_block {
+ 4    position: relative; 
+}
+  
+.first_block {
+    position: absolute; 
+    border: 1px solid red; /* For debugging */
+    width: 684px;
+    top: 220px ;
+    left: 377px;
+    height: 151px;
+
+}
+.first_block h1 {
+    width: 684px;
+    height: 151px; 
+    top: 220px;  
+    left: 377px; 
+    opacity: 1; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    color: #0f0101;
+    position: absolute; 
+}
+
+
+#smiles {
+width: 52px;
+height: 20px;
+top: 361px;
+left: 593px;
+gap: 0px;
+opacity: 0px;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: center;
+position: relative;
+color: #FFFFFF;
+    
+}
+
+#grin {
+width: 36px;
+height: 20px;
+top: 361px;
+left: 704px;
+gap: 0px;
+opacity: 0px;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: center;
+position: relative;
+color: #FFFFFF;
+      
+}
+#laugh {
+width: 49px;
+height: 20px;
+top: 361px;
+left: 797px;
+gap: 0px;
+opacity: 0px;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: center;
+position: relative;
+color: #fffdfd;
+}
+.first_block button {
+width: 162px;
+height: 44px;
+top: 419px;
+left: 639px;
+gap: 0px;
+opacity: 0px;
+box-shadow: 0px 2px 20px 0px #00000080;
+position: absolute;
+color: #fffdfd;
+
+
+
+
+}
+.second_block h2 {
+    width: 261px;
+height: 40px;
+top: 631px;
+left: 604px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    font-family: Source Sans Pro;
+font-size: 32px;
+font-weight: 700;
+line-height: 40.22px;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 32px;
+font-weight: 300;
+line-height: 40.22px;
+text-align: center;
+position: absolute;
+color: #fffdfd;
+
+
+} 
+.four-blocks {
+width: 1009px;
+height: 237px;
+top: 758px;
+left: 217px;
+gap: 0px;
+opacity: 0px;
+display: flex; 
+color: #3cff00;
+position: relative;
+align-items: center;
+max-width: 1009px;
+width: 100%;
+}
+
+
+.first_block h1{
+    width: 684px;
+height: 151px;
+top: 220px;
+left: 377px;
+gap: 0px;
+opacity: 0px;
+font-family: Source Sans Pro;
+font-size: 120px;
+font-weight: 700;
+line-height: 150.84px;
+text-align: center;
+
+
+}
+
+.first_block h1 {
+    width: 684px;
+    height: auto; 
+    top: 220px;  
+    left: 377px; 
+    opacity: 1; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    color: #0f0101;
+    position: relative; 
+}
+
+.philip {
+    text-align: center; /* Center text within the div */
+    background-color: none; /* Light background for visibility */
+    padding: 20px; /* Space around the content */
+    border: none; 
+    border-radius: 10px; /* Rounded corners for the container */
+    width: 200px; /* Set a specific width */
+    margin: 10px; /* Space around the entire block */
+}
+
+#philip-image {
+    width: 150px;
+    height: 150px;
+    top: 1201px;
+    left: 259px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+}
+
+.philip h3 {
+    font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+    font-size: 20px; /* Font size for the heading */
+    color: #333; /* Color for the heading text */
+    margin: 10px 0; /* Space above and below the heading */
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 27px;
+text-align: center;
+
+}
+
+.philip p {
+    font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+    font-size: 16px; /* Font size for the paragraph */
+    color: #555; /* Color for the paragraph text */
+}
+
+
+
+
+.nannie {
+    text-align: center; /* Center text within the div */
+    background-color: none; /* Light background for visibility */
+    padding: 20px; /* Space around the content */
+    border: none; /* Optional border for definition */
+    border-radius: 10px; /* Rounded corners for the container */
+    width: 200px; /* Set a specific width */
+    margin: 10px; /* Space around the entire block */
+}
+
+#nannie-image {
+    width: 150px;
+    height: 150px;
+    top: 1201px;
+    left: 506px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+}
+
+.nannie h3 {
+    font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+    font-size: 20px; /* Font size for the heading */
+    color: #333; /* Color for the heading text */
+    margin: 10px 0; /* Space above and below the heading */
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 27px;
+text-align: center;
+
+}
+
+.nannie p {
+    font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+    font-size: 16px; /* Font size for the paragraph */
+    color: #555; /* Color for the paragraph text */
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+
+
+
+
+
+.bruce {
+    text-align: center; /* Center text within the div */
+    background-color:none; /* Light background for visibility */
+    padding: 20px; /* Space around the content */
+    border: none; /* Optional border for definition */
+    border-radius: 10px; /* Rounded corners for the container */
+    width: 200px; /* Set a specific width */
+    margin: 10px; /* Space around the entire block */
+}
+
+#bruce-image {
+    width: 150px;
+    height: 150px;
+    top: 1201px;
+    left: 787px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+}
+
+.bruce h3 {
+    font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+    font-size: 20px; /* Font size for the heading */
+    color: #333; /* Color for the heading text */
+    margin: 10px 0; /* Space above and below the heading */
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 27px;
+text-align: center;
+
+}
+
+.bruce p {
+    font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+    font-size: 16px; /* Font size for the paragraph */
+    color: #555; /* Color for the paragraph text */
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+
+
+
+.henry {
+    text-align: center; /* Center text within the div */
+    background-color: none; /* Light background for visibility */
+    padding: 20px; /* Space around the content */
+    border: none; /* Optional border for definition */
+    border-radius: 10px; /* Rounded corners for the container */
+    width: 200px; /* Set a specific width */
+    margin: 10px; /* Space around the entire block */
+}
+
+#henry-image {
+    width: 150px;
+    height: 150px;
+    top: 1201px;
+    left: 1076px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+}
+
+.henry h3 {
+    font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+    font-size: 20px; /* Font size for the heading */
+    color: #333; /* Color for the heading text */
+    margin: 10px 0; /* Space above and below the heading */
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 27px;
+text-align: center;
+
+}
+
+.henry p {
+    font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+    font-size: 16px; /* Font size for the paragraph */
+    color: #555; /* Color for the paragraph text */
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+
+.quote-block {
+    width: 1440px;
+height: 392px;
+top: 1093px;
+left: -1px;
+gap: 0px;
+opacity: 0px;
+background: red 1px;;
+position: relative;
+}
+#quote-image {
+    width: 160px;
+height: 160px;
+top: 1201px;
+left: 259px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+border-radius: 10px;
+}
+.quote-main-block {
+    flex: 1;
+}
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+    padding: 0 0 10px;
+    border-left: 4px solid #007BFF; /* Accent line */
+}
+h3 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9em; /* Slightly smaller font for the job title */
+}
+
+
+.videos {
+width: 1228px;
+height: 450px;
+top: 1572px;
+left: 106px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: Source Sans Pro;
+font-size: 32px;
+font-weight: 700;
+line-height: 40.22px;
+text-align: center;
+
+}
+
+/* Main video block styles */
+.Main-video-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 1228px;
+height: 450px;
+top: 1572px;
+left: 106px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.Block {
+    background-color: none;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    width: 255px;
+height: 154px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* Title and description styles */
+h3 {
+    color: #000000;
+    margin: 10px 0 5px;
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: left;
+
+
+}
+
+p {
+    color: #666;
+    margin: 5px 0;
+    font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+
+/* Author block styles */
+.Author-Block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.Author-Block img {
+    width: 40px;
+   
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 30px;
+height: 30px;
+top: 261px;
+left: 13px;
+gap: 0px;
+opacity: 0px;
+.
+
+}
+h4 {
+    font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+color: #C271FF;
+
+}
+
+
+/* Rating block styles */
+.rating-block {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.rating-block div {
+    color:#C271FF; /* Gold color for stars */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Main-video-block {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+
+/* General styles for the membership section */
+.membership {
+    background-color: #071629;
+    /* Light gray background */
+    
+    text-align: center; /* Center text alignment */
+    border-radius: 10px; /* Rounded corners for the section */
+    width: 1440px;
+height: 502px;
+top: 2109px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* Heading style */
+.membership h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: hsl(0, 0%, 100%); /* Dark gray color */
+
+}
+
+/* Styling for the main membership block */
+.Main.membership.block {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping to next line */
+}
+
+/* Individual membership blocks */
+.Membership.block {
+    background-color:none; /* White background for each block */
+    border: 1px solid: none; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 22%; /* Width of each block */
+    margin: 10px; /* Spacing between blocks */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+/* Image styling */
+.Membership.block img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Slightly rounded corners for images */
+    width: 43.67px;
+height: 35.35px;
+top: 0.03px;
+left: 106.71px;
+gap: 0px;
+opacity: 0px;
+color: #C271FF;
+}
+
+/* Heading styling within membership blocks */
+.Membership.block h3 {
+    font-size: 1.5em; /* Increase heading size */
+    margin: 15px 0; /* Space around headings */
+    color: #ffffff; /* Blue color for headings */
+    text-align: center;
+}
+
+/* Paragraph styling */
+.Membership.block p {
+    color: #fcfcfc; /* Gray text color */
+    font-size: 1em; /* Standard size */
+    margin: 10px 0; /* Space around paragraphs */
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 25px; /* Inner spacing */
+    font-size: 1.1em; /* Increase font size */
+    cursor: pointer; /* Pointer on hover */
+    margin-top: 20px; /* Space above button */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    width: 162px;
+height: 44px;
+top: 406px;
+left: 639px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hover effect for membership blocks */
+.Membership.block:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+.line-break {
+    display: block; /* Makes the span behave like a block element */
+}
+/* General styles for the FAQ section */
+
+
+.FAQ {
+    max-width: 800px; /* Limit the width of the section */
+    margin: 20px auto; /* Center the section */
+    background-color: none; /* Background color */
+    width: 920px;
+height: 707px;
+top: 2678px;
+left: 249px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+
+h2 {
+    text-align: center; /* Center align the main heading */
+    color:#071629;
+    ; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75.42px;
+    text-align: center;
+    width: 136px;
+    height: 75px;
+    
+    gap: 0px;
+    opacity: 0px;
+        
+}
+
+/* Styles for the main content layout */
+.main {
+    
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    width: 920px;
+height: 707px;
+top: 2678px;
+left: 249px;
+gap: 0px;
+opacity: 0px;
+background color: none;
+
+}
+
+.row {
+    flex: 1 1 100%; /* Make each row take full width */
+}
+
+/* Styles for individual items */
+.item {
+    background-color: none; /* Light background for items */
+    border: none; /* Border for item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    width: 350px;
+height: 242px;
+top: 149px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+h3 {
+    color: #007BFF; /* Color for question headings */
+    margin: 0 0 10px; /* Space below heading */
+}
+
+p {
+    color: #666; /* Color for paragraph text */
+    margin: 0; /* Reset margin */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #0b3f52; /* Dark background for footer */
+    color: #fff; /* White text color */
+    
+    text-align: center; /* Center align text */
+    width: 1440px;
+height: 249px;
+top: 3469px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.global {
+    max-width: 800px; /* Limit the width of the section */
+    margin: 0 auto; /* Center the section */
+}
+
+.row {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    padding: 10px; /* Padding for the row */
+}
+
+img {
+    max-width: 100px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image.links {
+    display: flex; /* Use flexbox for social icons */
+    gap: 15px; /* Space between icons */
+}
+
+.image.links i {
+    font-size: 24px; /* Size for social media icons */
+    color: #fff; /* Icon color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.image.links i:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+p {
+    margin: 10px 0 0; /* Margin for paragraph */
+    font-size: 14px; /* Font size for copyright text */
+}
+
