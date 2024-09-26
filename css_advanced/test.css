@@ -1,235 +1,383 @@
-/* Reset some default styles */
-body, h1, h2, h3, h4, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-/* Header styling */
 header {
+
     width: 1103.41px;
-height: 29.46px;
-top: 35.02px;
-left: 171.59px;
-position: relative;
-}
-
-.logo-image {
-    width: 167.02px;
-height: 29.46px;
-top: 37px;
-left: 1.59px;
-opacity: 0px;
-color: #fffdfd;
-position: relative;
-}
-
-nav .link-block ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav .link-block a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Main section styling */
-main {
-    padding: 20px;
-}
-
-/* Hero section styling */
-.Headban {
-    text-align: center;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
     position: relative;
-}
-
-.Headban img {
-    width: 1440px;
-    height: 1093px;
-    gap: 0px;
-    opacity: 0px;
-    height: auto;
-    z-index: 1;
-}
-
-.first_block {
-    position: relative; 
-}
-
-#smiles {
-width: 52px;
-height: 20px;
-top: 361px;
-left: 593px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-weight: 700;
-line-height: 20.11px;
-text-align: center;
-position: relative;
-color: #FFFFFF;
+    }
     
-}
-
-#grin {
-width: 36px;
-height: 20px;
-top: 361px;
-left: 704px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
+    .link-block ul {     
+        width: 234px; 
+        height: 15px;
+        top: 37px;
+        left: 1041px;
+        gap: 0px;
+        opacity: 0px;    
+       position: relative;
+       color: #FFFFFF;
+       text-decoration: none;
+       display: flex;           
+        list-style-type: none;  
+        padding: 0;             
+        margin: 0; 
+        margin-bottom: 1041px;
+    }
+    .link-block li {
+        margin-right: 20px;
+    }
+    .link-block a {
+        text-decoration: none;   
+        color: #ffffff;           
+    }
+        
+    
+    .logo-image {
+        width: 167.02px;
+    height: 29.46px;
+    top: 37px;
+    left: 1.59px;
+    opacity: 0px;
+    color: #fffdfd;
+    position: relative;
+    margin-top: 35.02px;
+    
+    }
+    
+    .Headban {
+        position: relative; /* Position context for absolutely positioned elements if needed */
+        text-align: center; /* Center text and content */
+        background-color: #01080f; /* Light background color for the section */
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 1200px;
+    }
+    
+    
+        
+    
+    
+    .first_blockk {
+        padding: 20px; /* Add padding for spacing */
+        background-color: none; /* White background for first block */
+        margin-top: 20px; /* Space below the first block */
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .first_block h1 {
+        font-size: 2.5em; /* Main heading size */
+        color: #f3efef; /* Dark text color */
+        font-family: Source Sans Pro;
+font-size: 120px;
 font-weight: 700;
-line-height: 20.11px;
+line-height: 150.84px;
 text-align: center;
-position: relative;
-color: #FFFFFF;
-      
-}
-#laugh {
-width: 49px;
-height: 20px;
-top: 361px;
-left: 797px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-weight: 700;
-line-height: 20.11px;
-text-align: center;
-position: relative;
-color: #fffdfd;
-}
-.first_block button {
-width: 162px;
-height: 44px;
-top: 419px;
-left: 639px;
-gap: 0px;
-opacity: 0px;
-box-shadow: 0px 2px 20px 0px #00000080;
-position: absolute;
-color: #fffdfd;
+margin-bottom: 220px;
 
-}
 
-button {
-    background-color: #FFC107;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-/* Second block styling */
-.second_block {
-    margin-top: 50px;
+    }
+    
+    .first_block span {
+        display: inline-block; /* Allow spacing */
+        font-size: 1.5em; /* Font size for spans */
+        margin: 0 10px; /* Space between spans */
+        font-weight: bold; /* Bold text */
+        color: #007bff; /* Primary color for spans */
+    }
+    
+    .first_block button {
+        background-color: #28a745; /* Green background for button */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Padding inside button */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        font-size: 1.2em; /* Font size for button */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    
+    .first_block button:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+    
+    .second_block {
+        background-color: #ffffff; /* White background for second block */
+        padding: 20px; /* Padding for spacing */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        width: 100%;
+    }
+    
+    .second_block h2 {
+        font-size: 2em; /* Size of the subtitle */
+        color: #333; /* Dark text color */
+        margin-bottom: 20px; /* Space below the subtitle */
+    }
+    
+    .four-blocks {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-around; /* Space out blocks evenly */
+        flex-wrap: wrap; /* Wrap to next line if necessary */
+    }
+    
+    .four-blocks div {
+        text-align: center; /* Center text in each block */
+        margin: 10px; /* Margin around each block */
+        width: 150px; /* Fixed width for each block */
+    }
+    
+    .four-blocks img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Circular images */
+    }
+    
+    .four-blocks h3 {
+        font-size: 1.2em; /* Font size for names */
+        color: #007bff; /* Primary color for names */
+    }
+    
+    .four-blocks p {
+        font-size: 0.9em; /* Font size for descriptions */
+        color: #666; /* Grey color for descriptions */
+    }
+    
+    .philip {
+        text-align: center; /* Center text within the div */
+        background-color: none; /* Light background for visibility */
+        padding: 20px; /* Space around the content */
+        border: none; 
+        border-radius: 10px; /* Rounded corners for the container */
+        width: 200px; /* Set a specific width */
+        margin: 10px; /* Space around the entire block */
+    }
+    
+    #philip-image {
+        width: 150px;
+        height: 150px;
+        top: 1201px;
+        left: 259px;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 10px;
+    }
+    
+    .philip h3 {
+        font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+        font-size: 20px; /* Font size for the heading */
+        color: #333; /* Color for the heading text */
+        margin: 10px 0; /* Space above and below the heading */
+        font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
     text-align: center;
-}
-
-.four-blocks {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.four-blocks div {
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-    width: calc(25% - 40px); /* Adjust to your needs */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.four-blocks img {
-    width: 100%; /* Responsive image */
-    border-radius: 50%; /* Circular image */
-}
-
-/* Quote block styling */
-.quote-block {
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px 0;
-}
-
-#quote-image {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-blockquote {
+    
+    }
+    
+    .philip p {
+        font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+        font-size: 16px; /* Font size for the paragraph */
+        color: #555; /* Color for the paragraph text */
+    }
+    
+    
+    
+    
+    .nannie {
+        text-align: center; /* Center text within the div */
+        background-color: none; /* Light background for visibility */
+        padding: 20px; /* Space around the content */
+        border: none; /* Optional border for definition */
+        border-radius: 10px; /* Rounded corners for the container */
+        width: 200px; /* Set a specific width */
+        margin: 10px; /* Space around the entire block */
+    }
+    
+    #nannie-image {
+        width: 150px;
+        height: 150px;
+        top: 1201px;
+        left: 506px;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 10px;
+    }
+    
+    .nannie h3 {
+        font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+        font-size: 20px; /* Font size for the heading */
+        color: #333; /* Color for the heading text */
+        margin: 10px 0; /* Space above and below the heading */
+        font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+    
+    }
+    
+    .nannie p {
+        font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+        font-size: 16px; /* Font size for the paragraph */
+        color: #555; /* Color for the paragraph text */
+        font-family: Source Sans Pro;
+    font-size: 16px;
     font-style: italic;
-    color: #555;
-    margin: 0;
-}
-
-h3 {
-    margin: 10px 0 5px;
-}
-
-p {
-    color: #777;
-    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 24px;
     text-align: center;
-}
-
-/* Videos section */
-.videos {
-    margin: 40px 0;
-}
-
-.Main-video-block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.Block {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: calc(24% - 20px); /* Adjust width */
-    margin: 10px;
-    padding: 15px;
+    
+    }
+    
+    
+    
+    
+    
+    .bruce {
+        text-align: center; /* Center text within the div */
+        background-color:none; /* Light background for visibility */
+        padding: 20px; /* Space around the content */
+        border: none; /* Optional border for definition */
+        border-radius: 10px; /* Rounded corners for the container */
+        width: 200px; /* Set a specific width */
+        margin: 10px; /* Space around the entire block */
+    }
+    
+    #bruce-image {
+        width: 150px;
+        height: 150px;
+        top: 1201px;
+        left: 787px;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 10px;
+    }
+    
+    .bruce h3 {
+        font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+        font-size: 20px; /* Font size for the heading */
+        color: #333; /* Color for the heading text */
+        margin: 10px 0; /* Space above and below the heading */
+        font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
     text-align: center;
-}
-
-.Block img {
-    width: 100%; /* Responsive */
-    border-radius: 8px;
-}
-
-.rating-block {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}
-
-/* Membership section */
-.membership {
+    
+    }
+    
+    .bruce p {
+        font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+        font-size: 16px; /* Font size for the paragraph */
+        color: #555; /* Color for the paragraph text */
+        font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+    }
+    
+    
+    
+    .henry {
+        text-align: center; /* Center text within the div */
+        background-color: none; /* Light background for visibility */
+        padding: 20px; /* Space around the content */
+        border: none; /* Optional border for definition */
+        border-radius: 10px; /* Rounded corners for the container */
+        width: 200px; /* Set a specific width */
+        margin: 10px; /* Space around the entire block */
+    }
+    
+    #henry-image {
+        width: 150px;
+        height: 150px;
+        top: 1201px;
+        left: 1076px;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 50px;
+    }
+    
+    .henry h3 {
+        font-family: 'Source Sans Pro', sans-serif; /* Custom font */
+        font-size: 20px; /* Font size for the heading */
+        color: #333; /* Color for the heading text */
+        margin: 10px 0; /* Space above and below the heading */
+        font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+    
+    }
+    
+    .henry p {
+        font-family: 'Source Sans Pro', sans-serif; /* Same font for consistency */
+        font-size: 16px; /* Font size for the paragraph */
+        color: #555; /* Color for the paragraph text */
+        font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    }
+    
+    
+    
+    .quote-block {
+        width: 100%;
+        height: 392px; 
+        position: relative;
+        margin-top: 0; 
+        opacity: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        background: #C271FF;
+        margin: 0;
+    }
+    
+    
+    #quote-image {
+            width: 150px; /* Fixed width for the image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Circular image */
+            margin-right: 20px; /* Space between image and text */
+            margin-left: 259px;
+    }
+    .quote-main-block {
+        
+        
+       
+    }
+    blockquote {
+        font-style: italic;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0 0 10px;
+        
+    }
+    h3 {
+        margin: 10px 0 5px;
+        color: #FFFFFF;
+    }
+    p {
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 0.9em; /* Slightly smaller font for the job title */
+    }
+    
+    
+    .videos {
     width: 1228px;
     height: 450px;
     top: 1572px;
@@ -238,71 +386,381 @@ p {
     opacity: 0px;
     position: relative;
     
-}
-
-.Main.membership.block {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.Membership.block {
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-    width: calc(24% - 20px); /* Adjust width */
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+        font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
     text-align: center;
-}
-
-.membership button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-/* FAQ section */
-.FAQ {
-    margin: 40px 0;
-}
-
-.FAQ .main.row.block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.item {
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-    width: calc(48% - 20px); /* Adjust width */
-}
-
-/* Footer styling */
-footer {
-    background-color: #007BFF;
-    color: white;
-    padding: 20px 0;
-}
-
-.global.block {
-    text-align: center;
-}
-
-.image.links.block {
-    display: flex;
+    
+    }
+    
+    /* Main video block styles */
+    .Main-video-block {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        width: 1228px;
+    height: 450px;
+    top: 1572px;
+    left: 106px;
+    gap: 0px;
+    opacity: 0px;
+    
+    }
+    
+    .Block {
+        background-color: none;
+        border: none;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    
+    
+    img {
+        width: 100%;
+        height: auto;
+        width: 255px;
+    height: 154px;
+    gap: 0px;
+    opacity: 0px;
+    
+    }
+    
+    /* Title and description styles */
+    h3 {
+        color: #000000;
+        margin: 10px 0 5px;
+        font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    
+    
+    }
+    
+    p {
+        color: #666;
+        margin: 5px 0;
+        font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+    }
+    
+    /* Author block styles */
+    .Author-Block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    .Author-Block img {
+        width: 40px;
+       
+        border-radius: 50%;
+        margin-right: 10px;
+        width: 30px;
+    height: 30px;
+    top: 261px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+    .
+    
+    }
+    h4 {
+        font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #C271FF;
+    
+    }
+    
+    
+    /* Rating block styles */
+    .rating-block {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    .rating-block div {
+        color:#C271FF; /* Gold color for stars */
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .Main-video-block {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+    }
+    
+    
+    /* General styles for the membership section */
+    .membership {
+        background-color: #071629;
+        /* Light gray background */
+        
+        text-align: center; /* Center text alignment */
+        border-radius: 10px; /* Rounded corners for the section */
+        width: 1440px;
+    height: 502px;
+    top: 2109px;
+    gap: 0px;
+    opacity: 0px;
+    
+    }
+    
+    /* Heading style */
+    .membership h2 {
+        font-size: 2em; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Space below the heading */
+        color: hsl(0, 0%, 100%); /* Dark gray color */
+    
+    }
+    
+    /* Styling for the main membership block */
+    .Main.membership.block {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-around; /* Space items evenly */
+        flex-wrap: wrap; /* Allow wrapping to next line */
+    }
+    
+    /* Individual membership blocks */
+    .Membership.block {
+        background-color:none; /* White background for each block */
+        border: 1px solid: none; /* Light border */
+        border-radius: 8px; /* Rounded corners */
+        padding: 20px; /* Inner spacing */
+        width: 22%; /* Width of each block */
+        margin: 10px; /* Spacing between blocks */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        transition: transform 0.3s; /* Animation for hover effect */
+    }
+    
+    /* Image styling */
+    .Membership.block img {
+        max-width: 100%; /* Responsive image */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Slightly rounded corners for images */
+        width: 43.67px;
+    height: 35.35px;
+    top: 0.03px;
+    left: 106.71px;
+    gap: 0px;
+    opacity: 0px;
+    color: #C271FF;
+    }
+    
+    /* Heading styling within membership blocks */
+    .Membership.block h3 {
+        font-size: 1.5em; /* Increase heading size */
+        margin: 15px 0; /* Space around headings */
+        color: #ffffff; /* Blue color for headings */
+        text-align: center;
+    }
+    
+    /* Paragraph styling */
+    .Membership.block p {
+        color: #fcfcfc; /* Gray text color */
+        font-size: 1em; /* Standard size */
+        margin: 10px 0; /* Space around paragraphs */
+        text-align: center;
+    }
+    
+    /* Button styling */
+    button {
+        background-color: #007bff; /* Bootstrap primary color */
+        color: white; /* White text */
+        border: none; /* Remove border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 12px 25px; /* Inner spacing */
+        font-size: 1.1em; /* Increase font size */
+        cursor: pointer; /* Pointer on hover */
+        margin-top: 20px; /* Space above button */
+        transition: background-color 0.3s; /* Transition for hover effect */
+        width: 162px;
+    height: 44px;
+    top: 406px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    }
+    
+    button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    
+    /* Hover effect for membership blocks */
+    .Membership.block:hover {
+        transform: scale(1.05); /* Slightly scale up on hover */
+    }
+    .line-break {
+        display: block; /* Makes the span behave like a block element */
+    }
+    /* General styles for the FAQ section */
+    
+    
+    .FAQ {
+        max-width: 800px; /* Limit the width of the section */
+        margin: 20px auto; /* Center the section */
+        background-color: none; /* Background color */
+        width: 920px;
+    height: 707px;
+    top: 2678px;
+    left: 249px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    }
+    
+    h2 {
+        text-align: center; /* Center align the main heading */
+        color:#071629;
+        ; /* Dark color for the heading */
+        margin-bottom: 20px; /* Space below the heading */
+        
+        font-family: Source Sans Pro;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 75.42px;
+        text-align: center;
+        width: 136px;
+        height: 75px;
+        
+        gap: 0px;
+        opacity: 0px;
+            
+    }
+    
+    /* Styles for the main content layout */
+    .main {
+        
+        display: grid; /* Use grid for layout */
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        gap: 20px; /* Space between grid items */
+        width: 920px;
+    height: 707px;
+    top: 2678px;
+    left: 249px;
+    gap: 0px;
+    opacity: 0px;
+    background color: none;
+    
+    }
+    
+    .row {
+        flex: 1 1 100%; /* Make each row take full width */
+    }
+    
+    /* Styles for individual items */
+    .item {
+        background-color: none; /* Light background for items */
+        border: none; /* Border for item */
+        border-radius: 8px; /* Rounded corners */
+        padding: 15px; /* Inner padding */
+        transition: background-color 0.3s; /* Smooth transition for hover */
+        width: 350px;
+    height: 242px;
+    top: 149px;
+    gap: 0px;
+    opacity: 0px;
+    
+    }
+    
+    
+    h3 {
+        color: #007BFF; /* Color for question headings */
+        margin: 0 0 10px; /* Space below heading */
+    }
+    
+    p {
+        color: #666; /* Color for paragraph text */
+        margin: 0; /* Reset margin */
+        line-height: 1.5; /* Increase line height for readability */
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .main {
+            flex-direction: column; /* Stack items vertically on small screens */
+        }
+    }
+    
+    .global.block {
+    
+    height: 249px;
+    top: 3469px;
+    gap: 0px;
+    opacity: 0px;
+    width: 1440px;
+    gap: 0px;
+    opacity: 0px;
+    background: #e9fd0d;
+    position: relative;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .row.block img {
+        width: 114px;
+    height: 20px;
+    top: 6px;
+    left: 55px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    text-align: left;
+    background: #FFFFFF;
+    position: relative;
+    
+    }
+    
+    .image.links.block i {
+        
+        font-size: 24px; /* Size of icons */
+        color: rgb(5, 5, 0); /* Icon color */
+    
+        width: 130px;
+    height: 30px;
+    top: 90px;
+    left: 1070px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
     justify-content: center;
-    gap: 20px;
-}
-
-.image.links.block i {
-    font-size: 1.5em;
-}
+    margin:  2px;
+    }
+    
+    .row.block img {
+        width: 114px;
+    height: 20px;
+    top: 6px;
+    left: 55px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    font-family: Coiny;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    
+    
+    }

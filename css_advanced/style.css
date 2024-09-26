@@ -21,6 +21,7 @@ position: relative;
     list-style-type: none;  
     padding: 0;             
     margin: 0; 
+    margin-bottom: 1041px;
 }
 .link-block li {
     margin-right: 20px;
@@ -39,93 +40,50 @@ left: 1.59px;
 opacity: 0px;
 color: #fffdfd;
 position: relative;
+margin-top: 35.02px;
 
+}
+
+.Headban {
+    position: relative; /* Position context for absolutely positioned elements if needed */
+    text-align: center; /* Center text and content */
+    padding: 20px; /* Padding for the entire section */
+    z-index: -1;
 }
 .Headban img{
-width: 1440px;
-height: 1093px;
-gap: 0px;
-opacity: 0px;
-height: auto;
-z-index: 1;
-}
-.first_block {
- 4    position: relative; 
-}
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    height: auto;
+    z-index: 1;
+    }
+
   
 .first_block {
-    position: absolute; 
-    border: 1px solid red; /* For debugging */
-    width: 684px;
-    top: 220px ;
-    left: 377px;
-    height: 151px;
-
+    padding: 20px; /* Add padding for spacing */
+    background-color: #ed0101; /* White background for first block */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 220px;
+    position: relative;
 }
+
+
+
 .first_block h1 {
-    width: 684px;
-    height: 151px; 
-    top: 220px;  
-    left: 377px; 
-    opacity: 1; 
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 120px;
-    font-weight: 700;
-    line-height: 150.84px;
-    text-align: center;
-    color: #0f0101;
-    position: absolute; 
+    font-size: 2.5em; /* Larger font size for the main heading */
+    color: #d40e0e; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
 }
 
-
-#smiles {
-width: 52px;
-height: 20px;
-top: 361px;
-left: 593px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-weight: 700;
-line-height: 20.11px;
-text-align: center;
-position: relative;
-color: #FFFFFF;
-    
+.first_block span {
+    display: inline-block; /* Allow spacing */
+    font-size: 1.5em; /* Font size for spans */
+    margin: 0 10px; /* Space between spans */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Primary color for spans */
 }
 
-#grin {
-width: 36px;
-height: 20px;
-top: 361px;
-left: 704px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-weight: 700;
-line-height: 20.11px;
-text-align: center;
-position: relative;
-color: #FFFFFF;
-      
-}
-#laugh {
-width: 49px;
-height: 20px;
-top: 361px;
-left: 797px;
-gap: 0px;
-opacity: 0px;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-weight: 700;
-line-height: 20.11px;
-text-align: center;
-position: relative;
-color: #fffdfd;
-}
 .first_block button {
 width: 162px;
 height: 44px;
@@ -401,43 +359,48 @@ line-height: 24px;
 text-align: center;
 }
 
+
+
 .quote-block {
-    width: 1440px;
-height: 392px;
-top: 1093px;
-left: -1px;
-gap: 0px;
-opacity: 0px;
-background: red 1px;;
-position: relative;
+    width: 100%;
+    height: 392px; 
+    position: relative;
+    margin-top: 0; 
+    opacity: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: #C271FF;
+    margin: 0;
 }
+
+
 #quote-image {
-    width: 160px;
-height: 160px;
-top: 1201px;
-left: 259px;
-gap: 0px;
-opacity: 0px;
-position: absolute;
-border-radius: 10px;
+        width: 150px; /* Fixed width for the image */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Circular image */
+        margin-right: 20px; /* Space between image and text */
+        margin-left: 259px;
 }
 .quote-main-block {
-    flex: 1;
+    
+    
+   
 }
 blockquote {
     font-style: italic;
-    color: #555;
+    color: #FFFFFF;
     margin: 0;
     padding: 0 0 10px;
-    border-left: 4px solid #007BFF; /* Accent line */
+    
 }
 h3 {
     margin: 10px 0 5px;
-    color: #333;
+    color: #FFFFFF;
 }
 p {
     margin: 0;
-    color: #777;
+    color: #FFFFFF;
     font-size: 0.9em; /* Slightly smaller font for the job title */
 }
 
@@ -766,57 +729,66 @@ p {
     }
 }
 
+.global.block {
 
-
-
-/* Footer styles */
-footer {
-    background-color: #0b3f52; /* Dark background for footer */
-    color: #fff; /* White text color */
-    
-    text-align: center; /* Center align text */
-    width: 1440px;
 height: 249px;
 top: 3469px;
 gap: 0px;
 opacity: 0px;
+width: 1440px;
+gap: 0px;
+opacity: 0px;
+background: #e9fd0d;
+position: relative;
+box-sizing: border-box;
+
 
 }
 
-.global {
-    max-width: 800px; /* Limit the width of the section */
-    margin: 0 auto; /* Center the section */
+.row.block img {
+    width: 114px;
+height: 20px;
+top: 6px;
+left: 55px;
+gap: 0px;
+opacity: 0px;
+font-size: 18px;
+font-weight: 400;
+line-height: 19.8px;
+text-align: left;
+background: #FFFFFF;
+position: relative;
+
 }
 
-.row {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space items evenly */
-    padding: 10px; /* Padding for the row */
+.image.links.block i {
+    
+    font-size: 24px; /* Size of icons */
+    color: rgb(5, 5, 0); /* Icon color */
+
+    width: 130px;
+height: 30px;
+top: 90px;
+left: 1070px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+justify-content: center;
+margin:  2px;
 }
 
-img {
-    max-width: 100px; /* Set a max width for the image */
-    height: auto; /* Maintain aspect ratio */
-}
+.row.block img {
+    width: 114px;
+height: 20px;
+top: 6px;
+left: 55px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+font-family: Coiny;
+font-size: 18px;
+font-weight: 400;
+line-height: 19.8px;
 
-.image.links {
-    display: flex; /* Use flexbox for social icons */
-    gap: 15px; /* Space between icons */
-}
 
-.image.links i {
-    font-size: 24px; /* Size for social media icons */
-    color: #fff; /* Icon color */
-    transition: color 0.3s; /* Smooth transition for hover effect */
 }
-
-.image.links i:hover {
-    color: #007BFF; /* Change color on hover */
-}
-
-p {
-    margin: 10px 0 0; /* Margin for paragraph */
-    font-size: 14px; /* Font size for copyright text */
-}
-
